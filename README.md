@@ -126,14 +126,14 @@ Toggling the `Auto Open a New Terminal (For Terminal Mapping)` option will have 
 ## Commands
 | Command | Action | Default Keybind |
 |---------|--------|:-----------------:|
-| platformio-ide-terminal:new | Create a new terminal instance. | `ctrl-shift-t`<br>or<br>`cmd-shift-t` |
+| platformio-ide-terminal:new | Create a new terminal instance. | `alt-shift-t`<br>or<br>`cmd-shift-t` |
 | platformio-ide-terminal:toggle | Toggle the last active terminal instance.<br>**Note:** This will create a new terminal if it needs to. | `` ctrl-` ``<br>(Control + Backtick) |
-| platformio-ide-terminal:prev | Switch to the terminal left of the last active terminal. | `ctrl-shift-j`<br>or<br>`cmd-shift-j` |
-| platformio-ide-terminal:next | Switch to the terminal right of the last active terminal. | `ctrl-shift-k`<br>or<br>`cmd-shift-k` |
+| platformio-ide-terminal:prev | Switch to the terminal left of the last active terminal. | `alt-shift-j`<br>or<br>`cmd-shift-j` |
+| platformio-ide-terminal:next | Switch to the terminal right of the last active terminal. | `alt-shift-k`<br>or<br>`cmd-shift-k` |
 | platformio-ide-terminal:insert-selected-text | Run the selected text as a command in the active terminal. | `ctrl-enter` |
 | platformio-ide-terminal:insert-text | Bring up an input box for using IME and special keys. | –––––––––––– |
 | platformio-ide-terminal:fullscreen | Toggle fullscreen for active terminal. | –––––––––––– |
-| platformio-ide-terminal:close | Close the active terminal. | `ctrl-shift-x`<br>or<br>`cmd-shift-x` |
+| platformio-ide-terminal:close | Close the active terminal. | `alt-shift-x`<br>or<br>`cmd-shift-x` |
 | platformio-ide-terminal:close-all | Close all terminals. | –––––––––––– |
 | platformio-ide-terminal:rename | Rename the active terminal. | –––––––––––– |
 
